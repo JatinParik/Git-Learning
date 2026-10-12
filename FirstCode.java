@@ -27,4 +27,11 @@ class Calculator {
     public int mul(int n1, int n2, int n3) {
         return n1*n2*n3;
     }
+    public int fact(int n) {
+        int fact = 1;
+        for(int i = 2; i<=n; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
 }
