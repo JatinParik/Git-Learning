@@ -38,4 +38,7 @@ class Calculator {
         if(n<0) return n*-1;
         else return n;
     }
+    public int diff(int n1, int n2) {
+        return abs(n1-n2);
+    }
 }
