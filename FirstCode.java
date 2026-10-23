@@ -41,4 +41,10 @@ class Calculator {
     public int diff(int n1, int n2) {
         return abs(n1-n2);
     }
+    public int comb(int n, int r) {
+        int nFact = fact(n);
+        int rFact = fact(r);
+        int nrFact = fact(n-r);
+        return nFact/(rFact*nrFact);
+    }
 }
